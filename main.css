@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: linear-gradient(to bottom, #73c9ff, #51c4a9);
+}
+
+.header {
+    background-color: black;
+    padding: 20px;
+}
+
+.header h1 {
+    color: aqua;
+    text-align: center;
+}
+
+.header button {
+    width: 15%;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: pink;
+}
+
+.note {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    position: absolute;
+}
+
+.toolbar {
+    width: 100%;
+    background-color:darkgoldenrod;
+    text-align: right;
+}
+
+.close {
+    color:azure;
+    font-size: 20px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.editable{
+    overflow: scroll;
+    height: 170px;
+}
